@@ -54,18 +54,13 @@ section {
 /* 왼쪽, 프로필 이미지 부분 */
 
 #pf-img {
-  display: flex; /* #pf-img를 Flex 컨테이너로 만듭니다 */
-  justify-content: center; /* 주축(기본적으로 가로) 방향으로 자식 요소를 중앙 정렬합니다 */
-  align-items: center; /* 교차축(기본적으로 세로) 방향으로 자식 요소를 중앙 정렬합니다 */
-  /* 세로 중앙 정렬을 위해서는 부모 요소의 높이(height) 값이 정의되어야 합니다 */
-  height: 100vh; /* 예시: 뷰포트 높이의 100%를 차지하도록 높이 설정 */
+  text-align: center;
+  margin-bottom: 2em;
 }
-
 #pf-img img {
   border: 1px solid #ccc;
   border-radius: 50%;
   box-shadow: 5px 5px #eee;
-  /* 여기에는 추가할 스타일이 없습니다 */
 }
 
 /* 왼쪽, 자기 소개 부분 */
